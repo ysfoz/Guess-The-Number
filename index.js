@@ -34,7 +34,5 @@ function number_finder(){
         document.getElementById("answer").innerHTML="Weite the number";
         
     }
-    else if ((user_number > 100) || (user_number < 0)){
-        document.getElementById("answer").innerHTML="Please enter a number between 0 and 100"; 
-    }
+   
 }
