@@ -18,6 +18,10 @@ function number_finder(){
             document.getElementById("answer").innerHTML="Thanks for game!";
         }
     }
+    else if(user_number==""){
+        document.getElementById("answer").innerHTML="Weite the number";
+        
+    }
     else if(user_number > number){
         document.getElementById("answer").innerHTML="I am thinking about lower number";
        
@@ -30,9 +34,6 @@ function number_finder(){
         document.getElementById("answer").innerHTML="Are you sure that this is a number?";
         
     }
-    else if(user_number==""){
-        document.getElementById("answer").innerHTML="Weite the number";
-        
-    }
+    
    
 }
